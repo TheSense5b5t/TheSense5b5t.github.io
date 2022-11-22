@@ -1,6 +1,8 @@
-
+:root {
+        --bg-color: #878383;
+}
 html {
-        background-color: #878383;
+        background-color: var(--bg-color);
 }
 
 body {
@@ -26,11 +28,11 @@ a[href^="https://"]::after
 }
 
 #main {
-        background-color: #878383;
+        background-color: var(--bg-color);
 }
 
 #header {
-        background-color: #00008b;
+        background-color: var(--bg-color);
         color: white;
         text-align: center;
         margin-left: auto;
