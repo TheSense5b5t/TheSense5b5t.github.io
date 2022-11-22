@@ -1,1 +1,79 @@
 
+html {
+        background-color: #878383;
+}
+
+body {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+}
+
+a, a:visited {color: black; font-weight: bold;}
+/* External links */
+a[href^="http"]::after,
+a[href^="https://"]::after
+{
+  content: "";
+  width: 11px;
+  height: 11px;
+  margin-left: 4px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+#main {
+        background-color: #FFFFFF;
+}
+
+#header {
+        background-color: #00008b;
+        color: white;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#footer {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#nav {
+        font-weight: bold;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+}
+
+#nav a {
+        color: #000000;
+        font-weight: bold;
+        text-decoration: underline;
+}
+
+#nav a:visited {
+        color: #000000;
+        font-weight: bold;
+}
+/* nav > .a adds a margin to the navbar links. */
+#nav .a {margin-left: 2.5%;}
+
+/* These styles are for the toolbar styles... */
+.tb span, .toolbar span {display: none;}
+.tb:hover span, .toolbar:hover span {display: block; background-color: yellow; margin-left: 5px; margin-right: 5px; padding-left: 5px; padding-right: 5px;}
+
+/*****************************************************************************************************************/
+.b {font-weight: bold;}
+.i {font-style: italic;}
+.c {text-align: center; margin-left: auto; margin-righ: auto;}
+/* .h represents a heading in the #content. */
+.h {font-size: 14pt; font-weight: bold; text-align: center; margin-left: auto; margin-right: auto;}
+/****************************************************************************************************************/
+#blog-footer {text-align: center; margin-left: auto; margin-right: auto; font-weight: bold;}
+#blog-footer a, #blog-footer a:visited {color: black; text-decoration: underline; font-weight: bold;}
