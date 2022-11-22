@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>{{page.title}} - TheSense</title>
+                <!-- Big fat stylesheet. -->
+                <link rel="stylesheet" type="text/css" href="/static/main.css" />
+                
+        </head>
+        <body>
+                <main id="main">
+                        <div id="header">
+                                <h1>AlphaGameDeveloper</h1>
+                                <p>That talented dreamer lurking in the depths of the internet</p>
+                        </div>
+                        <!-- Navbar -->
+                        <div id="nav">
+                                <a href="/">Home</a>
+                                <a class="a" href="/blog">Blog</a>
+                                <a class="a" href="/links">Links</a>
+                                <a class="a" href="/about">About us</a>
+                        </div>
+                        <!-- #content is served by the Jekyll backend. -->
+                        <div id="content">
+                                {{content}}
+                        </div>
+                        <!-- #blog-footer is not used in the main.html template...  It is commented out. -->
+                        <!--<div id="blog-footer" class="c">
+                                <p>
+                                        <a href="{{page.back-url}}">
+                                                Return to posts of {{page.monthyear}}?
+                                        </a>
+                                        &nbsp;| <a href="/blog/">Return to all blog posts?</a>
+                                </p>
+                        </div>-->
+                </main>
+                <div id="footer">
+                        <p>Ukraine, we stand with you.</p>
+                        <p class="b">Website made by <a href="https://github.com/AlphaGameDeveloper/">AlphaGameDeveloper</a> for TheSense</p>
+                        <p>Server IP: <span class="5b5t-server-ip">5b5t.org</span> <i>(Minecraft 1.12.2 or higher)</i></p>
+                </div>
+        </body>
+</html>
