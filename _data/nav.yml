@@ -1,0 +1,6 @@
+- name: Home
+  url: /
+  dot: true
+- name: About
+  url: /about
+  dot: false
