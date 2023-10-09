@@ -62,7 +62,9 @@
 			<p id="site.description">{{ site.description }}</p>
 		</div>
 		<div id="navbar">
+<!-- Deleted-- This was for another Jekyll site and I'm too lazy to hold down the backspace key :/
 			<p style="font-style: italic; margin-top: 0; margin-bottom: 0;" id="site.data.motd.motd">» {{ site.data.motd.motd }} «</p>
+-->
 			{% for item in site.data.nav %}
 				<a href="{{ item.url }}">{{ item.name }}</a>
 			  {% if item.dot %}
